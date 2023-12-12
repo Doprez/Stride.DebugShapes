@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Stride.Engine" Version="4.2.0.2043" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Effects\LinePrimitiveShader.sdsl">
+      <Generator>StrideShaderKeyGenerator</Generator>
+    </None>
+    <None Update="Effects\PrimitiveShader.sdsl">
+      <Generator>StrideShaderKeyGenerator</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
