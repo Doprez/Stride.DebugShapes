@@ -1,6 +1,8 @@
 # Stride.DebugShapes
 an update from Profans debug shape PR to avoid awaiting approval and just be able to use it.
+
 [PR](https://github.com/stride3d/stride/pull/517)
+
 [Xenko original repo](https://github.com/profan/XenkoDebugRendering)
 
 
